@@ -1,0 +1,38 @@
+{
+  "name": "sgm-sallem-client",
+  "version": "1.0.0",
+  "description": "Frontend para Sistema de Gestión de Iglesia Evangélica (SGM-Sallem)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": ["church", "management", "saas", "multi-tenant"],
+  "author": "javzdev",
+  "license": "MIT",
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "axios": "^1.15.0",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^1.8.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-hook-form": "^7.72.1",
+    "react-router-dom": "^7.14.1",
+    "recharts": "^3.8.1",
+    "zod": "^4.3.6",
+    "@xyflow/react": "^12.0.0",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}
